@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: java_short_term_2019_5 Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ￥ﾗﾯ￥ﾓﾼ￥ﾓﾈ￥ﾐﾼ￥ﾘﾻ
+Implementation-Vendor-Id: com.alibaba
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

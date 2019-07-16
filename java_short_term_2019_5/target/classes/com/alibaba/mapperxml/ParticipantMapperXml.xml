@@ -1,0 +1,12 @@
+<!--  <?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.alibaba.mapper.ParticipantMapper">
+	<select id="getAllHasGetParticipant" resultType="Participant">
+		SELECT par_id,par_name,par_telephone,par_identityid,par_hasget FROM participant where par_hasget=1
+	</select>
+	
+	<select id="getAllHasNotGetParticipant" resultType="Participant">
+		SELECT par_id,par_name,par_telephone,par_identityid,par_hasget FROM participant where par_hasget=0
+	</select>
+	
+</mapper>-->

@@ -1,0 +1,24 @@
+CREATE TABLE system(
+   'sys_id' INT UNSIGNED NOT NULL AUTO_INCREMENT,
+   'sys_name' VARCHAR(100) NOT NULL,
+   'sys_password' VARCHAR(100) NOT NULL,
+   PRIMARY KEY ( 'sys_id' )
+);
+
+CREATE TABLE participant(
+   'par_id' INT UNSIGNED NOT NULL AUTO_INCREMENT,
+   'par_name' VARCHAR(100),
+   'par_telephone' VARCHAR(100),
+   'par_identityid' VARCHAR(100),
+   'par_hasget' INT,
+   PRIMARY KEY ( 'par_id' )
+);
+
+CREATE TABLE pool(
+   'pool_id' INT UNSIGNED NOT NULL AUTO_INCREMENT,
+   'pool_name' VARCHAR(100),
+   'pool_telephone' VARCHAR(100),
+   'pool_identityid' VARCHAR(100),
+   'pool_hasget' INT,
+   PRIMARY KEY ( 'pool_id' )
+);
